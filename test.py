@@ -33,9 +33,7 @@ else:
 
 #creating a function
     
-#def samplefunc(b,str,x=8):
-#    print(b,str,x)
-#    return x
+
 
 #x = samplefunc(b,str)
 #print(x)
@@ -46,7 +44,7 @@ saveFile = open('exampleFile.txt','w')
 saveFile.write(text)
 saveFile.close()
 
-#Creating class and calling different func 
+
 class ageList:
 
     def child(age):
@@ -75,7 +73,7 @@ class ageList:
 
 ageList.teen(20)
 
-#list & tuple
+
 list1 = [[1,2,3],   
          [4,5,6],   
          [7,8,9]]
